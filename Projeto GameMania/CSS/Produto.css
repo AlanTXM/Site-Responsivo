@@ -1,0 +1,51 @@
+body{
+    background: #D5A2FD;
+}
+nav{
+    background: black;
+}
+.nav-link{
+    color: #D5A2FD;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 3px;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-lin img{
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    top: 25%;
+    left: 67%;
+    position: absolute;
+}
+.Barrapesquisa{
+    position: absolute;
+    left: 70%;
+}
+.Barrapesquisa img{
+    width: 28px;
+    height: 28px;
+    top: -22%;
+    margin: 6px;
+    position: absolute;
+    border-radius: 8px;
+}
+.Barrapesquisa input{
+    border-radius: 8px;
+    width: 220px;
+    border: none;
+}
+.card img{
+    width: 250px;
+    height: 200px;
+}
+.card-list-text li{
+    font-size: small;
+}
+.card-deck{
+    margin: 50px;
+}

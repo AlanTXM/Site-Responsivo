@@ -1,0 +1,8 @@
+.container{
+    box-shadow: 0 8px 40px 0 purple;
+    background-color: black;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+    margin-top: 60px;
+}

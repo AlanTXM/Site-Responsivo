@@ -1,0 +1,445 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+body {
+    background: #D5A2FD;
+    min-height: 100%;
+}
+a{
+    text-decoration: none;
+    color: white
+}
+.Barrapesquisa {
+    position: absolute;
+    top: 35px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    height: 34px;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.search-txt {
+    width: 200px;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 12px;
+    line-height: 20px;
+}
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background: black;
+    max-width: 100%;
+    padding: 20px;
+}
+#carrinho{
+    background: white;
+    position: absolute;
+    display: flex;
+    width: 34px;
+    left: 65%;
+    top: 19px;
+    border-radius: 10px;
+}
+.menu .menu1, .menu2, .menu3, .menu4 {
+    box-sizing: border-box;
+    background: black;
+    padding: 10px;
+    border-style: solid;
+    border-color: violet;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.intro {
+    text-shadow: 3px 3px 5px purple;
+}
+#tit{
+    background: none;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 3px 3px 5px purple;
+}
+.games{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.game-list{
+    margin: 30px;
+    padding: 20px;
+    height: 200px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid gray;
+    background: black;
+    box-shadow: 0 10px 30px 0 purple;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 60px;
+    height: 200px;
+}
+.button input{
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    margin-top: 5px;
+}
+.button1 ::placeholder{
+    font-size: small;
+    text-align: center;
+}
+.button1 input{
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+}
+.valor{
+    color: white;
+    font-size: small;
+}
+.jogo{
+    color: white;
+    font-size: large;
+    margin-top: 12px;
+}
+.qtd{
+    margin-top: 15px;
+    width: 180px;
+    height: 30px;
+}
+.cifrao{
+    color: white;
+    font-size: small;
+}
+.corpo {
+    max-width: 95%;
+    border-style: solid;
+    background: purple;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+#compra {
+    background-color: purple;
+    border: none;
+    margin-top: 20px;
+    margin-left:45vw;
+    width: 150px;
+    height: 40px;
+}
+#compra1 {
+    background: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+#cel {
+    margin-top: 50px;
+}
+ h3{
+    text-align: center;
+    background: purple;
+    margin-top: 260px;
+    border-style: solid;
+    color: black;
+}
+h2, h4 {
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    background: purple;
+
+}
+legend {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 2px;
+
+}
+#fim {
+    margin-top: 130px;
+}
+.fim1 {
+    float: left;
+    background: black;
+    width: 100%;
+    padding: 10px;
+}
+.flex1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+    background: white;
+    margin-left: 20px;
+    border-radius: 10px
+}
+.flex2 {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: white;
+    background: white;
+    margin-right: 20px;
+    border-radius: 10px
+}
+.flex3 {
+    float: right;
+    color: white;
+    margin-right: 10px;
+    font-size: small;
+    margin-top: 12px;
+}
+#titlogin {
+    margin-top: 50px;
+    text-shadow: 3px 3px 5px purple;
+    text-align: center;
+}
+#titcad {
+    margin-top: 50px;
+    text-shadow: 3px 3px 5px purple;
+    text-align: center;
+}
+.login {
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    margin-top: 10px;
+}
+#fazerlogin{
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+#box2{
+    margin-top: 60px;
+}
+.login2 {
+    display: flex;
+    margin-left: 115px;
+    margin-top: 12px;
+    border: none;
+}
+.cadastroo {
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    margin-top: 10px;
+}
+#box{
+    margin-top: 50px;
+}
+.cadastro {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: black;
+}
+.homee {
+    width: 30px;
+    height: 30px;
+
+}
+#cate {
+    font-style: italic;
+    font-weight: 450;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 3px 3px 5px purple;
+}
+div.galeria {
+    margin: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    float: left;
+    width: 180px;
+    
+    background: black;
+  }
+div.galeria:hover {
+    border: 3px solid black;
+  }
+div.galeria img {
+    background: white;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    width: 90%;
+    height: 125px;
+    margin-left: 9px;
+  }
+div.desc {
+    font-size: small;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+.desc1{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+#carrinho {
+    margin-left: 20px;
+}
+#carrText {
+    text-align: center;
+    font-size: small;
+    margin-top: 10px;
+}
+#addCC{
+    text-align: center;
+    margin-top: 40px;
+}
+.addC{
+    text-align: center;
+}
+#parcela{
+    border: none;
+    border-style: solid;
+    border-radius: 10px;
+}
+.container {
+    box-shadow: 0 8px 40px 0 purple;
+    background-color: black;
+    border-radius: 10px;
+    width: 450px;
+    max-width: 100%;
+    margin-top: 60px;
+}
+.header {
+    padding: 30px 40px;
+}
+
+.header h2 {
+    text-shadow: 3px 3px 5px rgb(255, 0, 255);
+    font-weight: 750;
+    color: purple;
+    font-size: 35px;
+    background-color: black;
+}
+.form {
+    padding: 0 45px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    background-color: black;
+    border: none;
+}
+
+.form-control label {
+    font-weight: 200;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: purple;
+}
+
+.form-control input {
+    border: 2px solid white;
+    border-radius: 5px;
+    outline: 0;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    padding: 5px;
+}
+
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-control.error i.img-error {
+    visibility: visible;
+}
+
+.form-control.success i.img-success {
+    visibility: visible;
+}
+
+.form-control.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+.form #botao {
+    border: none;
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 550;
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.form #botao:hover {
+    background-color: #D5A2FD;
+    transition: 0.3s;
+}
+#cValidacao {
+    text-align: center;
+    border-style: none;
+    margin-bottom: 10px;
+}
+.form #msgpassword, #msgpassword2, #msgname, #msglastname, #msgemail{
+    font-size: small;
+}
+
+
+

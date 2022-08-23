@@ -1,0 +1,190 @@
+body{
+    background: #D5A2FD;
+}
+nav{
+    background: black;
+}
+#tit{
+    text-align: center;
+    margin: 50px;
+}
+.nav-link{
+    color: #D5A2FD;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 3px;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-lin img{
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    top: 25%;
+    left: 67%;
+    position: absolute;
+}
+.Barrapesquisa{
+    position: absolute;
+    left: 70%;
+}
+.Barrapesquisa img{
+    width: 28px;
+    height: 28px;
+    top: -22%;
+    margin: 6px;
+    position: absolute;
+    border-radius: 8px;
+}
+.Barrapesquisa input{
+    border-radius: 8px;
+    width: 220px;
+    border: none;
+}
+.container-fluid{
+    color: black;
+    text-align: center;
+    text-shadow: 3px 3px 5px purple;
+    margin-top: 30px;
+}
+.card img{
+    height: 250px;
+    border-radius: 20px;
+}
+.card {
+    text-shadow: 3px 3px 5px purple;
+    border-radius: 20px;
+    top: 20px;
+    background:black;
+}
+.colmb-4{
+    margin-top: 20px;
+}
+.colmb-4 input{
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+    text-align: center;
+    background: purple;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.row{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.row .card-title{
+    color: purple;
+}
+.card-text{
+    color: white;
+    font-size: small;
+}
+.card-cash{
+    color: white;
+}
+.needs {
+    width: 400px;
+}
+.container{
+    box-shadow: 0 8px 40px 0 purple;
+    background-color: black;
+    border-radius: 20px;
+    width: 500px;
+    height: 550px;
+    margin-top: 100px;
+}
+.container1{
+    box-shadow: 0 8px 40px 0 purple;
+    background-color: black;
+    border-radius: 20px;
+    width: 500px;
+    height: 550px;
+    margin-top: 100px;
+}
+.header{
+    color: purple;
+    text-align: center;
+}
+.header1{
+    color: purple;
+    text-align: center;
+    margin-top: 10px;
+}
+.form-group{
+    color: purple;
+    margin-left: 70px;
+}
+.form-group1{
+    color: purple;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 350px;
+}
+.form-group input, .form-group1 input{
+    border-radius: 10px;
+}
+.Needs{
+    margin-top: 40px;
+}
+.needs button{
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    background: purple;
+    margin-left: 180px;
+}
+.Needs button{
+    border-radius: 10px;
+    margin-top: 50px;
+    border: none;
+    background: purple;
+    margin-left: 200px;
+}
+
+#fim {
+    margin-top: 130px;
+}
+.fim1 {
+    float: left;
+    background: black;
+    width: 100%;
+    padding: 10px;
+}
+.flex1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+    background: white;
+    margin-left: 20px;
+    border-radius: 10px
+}
+.flex2 {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: white;
+    background: white;
+    margin-right: 20px;
+    border-radius: 10px
+}
+.flex3 {
+    float: right;
+    color: white;
+    margin-right: 10px;
+    font-size: small;
+    margin-top: 12px;
+}
+.carousel-inner img{
+    height: 500px;
+    background-color: white
+}
+.carousel-item p{
+    font-size: x-large;
+}
